@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-primary text-white leading-loose;
+  }
+
+  #gomb{
+    @apply bg-accent;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .square {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 7px;
+    height: 7px;
+    @apply bg-accent;
+}
+}
